@@ -11,10 +11,10 @@ The changeSet tag is what you use to group database changes/<a href="changes/ind
 <?xml version="1.0" encoding="UTF-8"?>
 
 <databaseChangeLog
-  xmlns="http://www.liquibase.org/xml/ns/dbchangelog/1.7"
+  xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog/1.7
-         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-1.7.xsd">
+  xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd">
     <changeSet id="1" author="bob">
         <comment>A sample change log</comment>
         <createTable/>

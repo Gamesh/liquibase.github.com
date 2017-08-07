@@ -112,10 +112,10 @@ In change log mode, the an XML change log of what is necessary to upgrade the ba
 {% highlight xml %}
 <?xml version="1.0" encoding="UTF-8"?>
 <databaseChangeLog
-    xmlns="http://www.liquibase.org/xml/ns/dbchangelog/1.1"
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog/1.1
-        http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-1.1.xsd">
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+        http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd">
     <changeSet author="diff-generated" id="1185206820975-1">
         <addColumn tableName="CREDIT">
             <column name="MONTH" type="VARCHAR2(10)"/>
